@@ -18,15 +18,10 @@ class Grid extends Component {
     
     componentDidMount(){
         var lst = [];
-        // this.state.leads.forEach((lead) => {
-        //     var addr = lead["Address"]["street"] + ',' + lead["Address"]["city"] + ',' + lead["Address"]["state"] + ',' + lead["Address"]["postalCode"];
-        //     lst.push(<LeadRow key=lead["Email"] name={lead["Name"]} email={lead["Email"]} address={addr} setSelectedEmail={this.setSelectedEmail} selectedEmail={this.state.selected}> </LeadRow> )
-        // });
-        for (var i =0;i<5;i++){
-            lst.push(<LeadRow key={i} name={"SomeName"} email={i+"email@kuku.com"} address={"This address is suuper long like the longeder theins ever"} setSelectedEmail={this.setSelectedEmail} selectedEmail={this.state.selected}> </LeadRow> )
-        }
-        // console.log(lst);
-        console.log("mount");
+        this.state.leads.forEach((lead) => {
+            var addr = lead["Address"]["street"] + ',' + lead["Address"]["city"] + ',' + lead["Address"]["state"] + ',' + lead["Address"]["postalCode"];
+            lst.push(<LeadRow key={lead["Email"]} name={lead["Name"]} email={lead["Email"]} address={addr} setSelectedEmail={this.setSelectedEmail} selectedEmail={this.state.selected}> </LeadRow> )
+        });
         this.setState({rows:lst});
 
         window.JFCustomWidget.subscribe("submit", function(){
@@ -46,10 +41,10 @@ class Grid extends Component {
         for (var i =0;i<5;i++){
             lst.push(<LeadRow name={"SomeName"} email={i+"email@kuku.com"} address={"This address is suuper long like the longeder theins ever"} setSelectedEmail={this.setSelectedEmail} selectedEmail={newEmail}> </LeadRow> )
         }
-        // this.state.leads.forEach((lead) => {
-        //     var addr = lead["Address"]["street"] + ',' + lead["Address"]["city"] + ',' + lead["Address"]["state"] + ',' + lead["Address"]["postalCode"];
-        //     lst.push(<LeadRow key=lead["Email"] name={lead["Name"]} email={lead["Email"]} address={addr} setSelectedEmail={this.setSelectedEmail} selectedEmail={newEmail}> </LeadRow> )
-        // });
+        this.state.leads.forEach((lead) => {
+            var addr = lead["Address"]["street"] + ',' + lead["Address"]["city"] + ',' + lead["Address"]["state"] + ',' + lead["Address"]["postalCode"];
+            lst.push(<LeadRow key={lead["Email"]} name={lead["Name"]} email={lead["Email"]} address={addr} setSelectedEmail={this.setSelectedEmail} selectedEmail={newEmail}> </LeadRow> )
+        });
         console.log("set email");
         this.setState({rows:lst,selected:newEmail});
     }
