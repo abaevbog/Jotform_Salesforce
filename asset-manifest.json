@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/abaevbog/abaevbog.github.io/static/css/main.e7de5ee5.chunk.css",
-    "main.js": "/abaevbog/abaevbog.github.io/static/js/main.e9bcd22f.chunk.js",
-    "main.js.map": "/abaevbog/abaevbog.github.io/static/js/main.e9bcd22f.chunk.js.map",
-    "runtime~main.js": "/abaevbog/abaevbog.github.io/static/js/runtime~main.f7f99da0.js",
-    "runtime~main.js.map": "/abaevbog/abaevbog.github.io/static/js/runtime~main.f7f99da0.js.map",
-    "static/css/2.57797527.chunk.css": "/abaevbog/abaevbog.github.io/static/css/2.57797527.chunk.css",
-    "static/js/2.2f029333.chunk.js": "/abaevbog/abaevbog.github.io/static/js/2.2f029333.chunk.js",
-    "static/js/2.2f029333.chunk.js.map": "/abaevbog/abaevbog.github.io/static/js/2.2f029333.chunk.js.map",
-    "index.html": "/abaevbog/abaevbog.github.io/index.html",
-    "precache-manifest.9b00efb359bc8d87ae4b0077f01b2c28.js": "/abaevbog/abaevbog.github.io/precache-manifest.9b00efb359bc8d87ae4b0077f01b2c28.js",
-    "service-worker.js": "/abaevbog/abaevbog.github.io/service-worker.js",
-    "static/css/2.57797527.chunk.css.map": "/abaevbog/abaevbog.github.io/static/css/2.57797527.chunk.css.map",
-    "static/css/main.e7de5ee5.chunk.css.map": "/abaevbog/abaevbog.github.io/static/css/main.e7de5ee5.chunk.css.map"
+    "main.css": "/abaevbog/Jotform_Salesforce/static/css/main.e7de5ee5.chunk.css",
+    "main.js": "/abaevbog/Jotform_Salesforce/static/js/main.a1dcaf5a.chunk.js",
+    "main.js.map": "/abaevbog/Jotform_Salesforce/static/js/main.a1dcaf5a.chunk.js.map",
+    "runtime~main.js": "/abaevbog/Jotform_Salesforce/static/js/runtime~main.ef85a4f5.js",
+    "runtime~main.js.map": "/abaevbog/Jotform_Salesforce/static/js/runtime~main.ef85a4f5.js.map",
+    "static/css/2.57797527.chunk.css": "/abaevbog/Jotform_Salesforce/static/css/2.57797527.chunk.css",
+    "static/js/2.2f029333.chunk.js": "/abaevbog/Jotform_Salesforce/static/js/2.2f029333.chunk.js",
+    "static/js/2.2f029333.chunk.js.map": "/abaevbog/Jotform_Salesforce/static/js/2.2f029333.chunk.js.map",
+    "index.html": "/abaevbog/Jotform_Salesforce/index.html",
+    "precache-manifest.973e52e77fd898fb732468245c732d80.js": "/abaevbog/Jotform_Salesforce/precache-manifest.973e52e77fd898fb732468245c732d80.js",
+    "service-worker.js": "/abaevbog/Jotform_Salesforce/service-worker.js",
+    "static/css/2.57797527.chunk.css.map": "/abaevbog/Jotform_Salesforce/static/css/2.57797527.chunk.css.map",
+    "static/css/main.e7de5ee5.chunk.css.map": "/abaevbog/Jotform_Salesforce/static/css/main.e7de5ee5.chunk.css.map"
   }
 }
