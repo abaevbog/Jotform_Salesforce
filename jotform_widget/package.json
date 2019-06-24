@@ -2,7 +2,7 @@
   "name": "jotform_widget",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/abaevbog/abaevbog.github.io",
+  "homepage": "https://github.com/abaevbog/Jotform_Salesforce/",
   "dependencies": {
     "bootstrap": "^4.3.1",
     "gh-pages": "^2.0.1",
