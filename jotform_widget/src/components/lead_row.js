@@ -4,21 +4,27 @@ import ReactDOM from 'react-dom';
 class LeadRow extends Component {
     constructor(props){
         super(props);
+    this.state = {selected:false};
     this.sendEmail = this.sendEmail.bind(this);
     }
 
+
+
+
     sendEmail(event){
-        const found = ReactDOM.findDOMNode(event.target).parentNode.childNodes[1].textContent;
-        console.log(found);
-        event.target.set
+        const found = this.props.Id;
         this.props.setSelectedEmail(found);
     }
+
+
+
+
     render() {
         return (
-            <tr className="slide" onClick={this.sendEmail}> 
-                <th scope="row">{this.props.name}</th>
-                <td>{this.props.email}</td>
-                <td>{this.props.address}</td>
+            <tr onClick={this.sendEmail} className={this.props.Id == this.props.selectedEmail? "selected":""}> 
+                <th scope="row" className="fit">{this.props.name}</th>
+                <td className="fit">{this.props.email}</td>
+                <td className="fit">{this.props.address}</td>
             </tr>
         );
     }
